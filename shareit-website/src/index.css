@@ -18,8 +18,7 @@
   
   .content-left-text,
   .content-right-text {
-    width: 100%;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,8 +26,11 @@
   
   .content-right-image,
   .content-left-image {
-    width: 100%;
-    float: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 12%;
   }
   
