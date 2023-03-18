@@ -86,7 +86,7 @@ function App() {
         {/* <h2>Get Started</h2>
         <p>Download ShareIt today and start splitting expenses with ease!</p> */}
         <button className="download-button">Coming Soon</button>
-        <p>Version 0.1.1</p>
+        <p>Version 0.1.2</p>
 
 
 
