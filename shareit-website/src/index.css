@@ -1,3 +1,48 @@
+@media only screen and (max-width: 600px) {
+  .app {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  header {
+    padding: 60px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .content-left-text,
+  .content-right-text {
+    width: 100%;
+    float: none;
+  }
+  
+  .content-right-image,
+  .content-left-image {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+  .screenshot {
+    width: 100%;
+  }
+  
+  .margin {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .centered{
+   float: none; 
+  }
+}
+
 .app {
   max-width: 960px;
   margin: 0 auto;
@@ -137,4 +182,44 @@ body {
 
 .download-button:hover {
   background-color: #387578;
+}
+@media only screen and (max-width: 600px) {
+  .app {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  header {
+    padding: 60px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .container {
+    padding: 10px;
+  }
+  
+  .content-left-text,
+  .content-right-text {
+    width: 100%;
+    float: none;
+  }
+  
+  .content-right-image,
+  .content-left-image {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+  .screenshot {
+    width: 100%;
+  }
+  
+  .margin {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 }
