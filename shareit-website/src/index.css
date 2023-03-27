@@ -80,6 +80,15 @@ body {
   margin-bottom: 150px;
 }
 
+.centered-negative-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .centered-no-top {
   display: flex;
   align-items: center;
@@ -215,6 +224,15 @@ body {
   }
 
   .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .centered-negative-top {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -367,6 +385,15 @@ body {
     margin-bottom: 150px;
   }
 
+  .centered-negative-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
   .centered-no-top {
     display: flex;
     align-items: center;
@@ -430,7 +457,7 @@ body {
 
 @media (min-width: 750px) and (max-width: 849px)  {
   .app {
-    max-width: 100%x;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -483,6 +510,16 @@ body {
   }
 
   .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 5vh;
+    margin-bottom: 150px;
+  }
+
+  .centered-negative-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -588,13 +625,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    padding: 0;
     background-color: #f8f8f800;
-    height: 65vh
+    height: 85vh
   }
 
   header img {
-    height: 7vh;
+    height: 6vh;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -626,7 +663,8 @@ body {
   }
 
   .container {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     background-color: #ffffff00;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
@@ -638,8 +676,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin-top: 5vh;
-    margin-bottom: 150px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .centered-negative-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: -20vh;
+    margin-bottom: 3vh;
   }
 
   .content-left-text {
@@ -688,7 +735,7 @@ body {
     align-items: center;
     height: 100%;
     margin-top: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 3vh;
   }
 
   .centered-no-bottom {
@@ -696,7 +743,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 3vh;
     margin-bottom: 0px;
   }
 
